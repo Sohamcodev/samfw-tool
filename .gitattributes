@@ -1,0 +1,11 @@
+# Configuration for git attributes
+*.md linguist-documentation
+
+*.tsx linguist-detectable
+dist/* linguist-vendored
+
+yarn.lock linguist-generated  
+*.woff binary
+src/** linguist-detectable
+examples/site/** linguist-vendored
+*.jpg binary
